@@ -1,0 +1,51 @@
+body{
+    padding: 150px;
+    font-family: macondo;
+}
+#login-box{
+    border: 5px solid #6528F7;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 8px #888888;
+}
+.heading{
+    font-family: macondo;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #6528F7;
+}
+h2{
+    font-family: macondo;
+    font-size: 30px;
+    font-weight: 800;
+}
+#email{
+    width: 100%;
+    outline-color: darkgray;
+    margin-bottom: 30px;
+    padding: 10px 0px;
+    font-weight: 600;
+}
+#password{
+    width: 100%;
+    outline-color: darkgray;
+    margin-bottom: 30px;
+    padding: 10px 0px;
+    font-weight: 600;
+}
+#btn{
+    padding: 15px 40px 15px 40px;
+    background-color: #6528F7;
+    color: white;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.bolder{
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #6528F7;
+}
