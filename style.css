@@ -2,7 +2,7 @@ body{
     padding: 150px;
     font-family: macondo;
 }
-#login-box{
+.login-box{
     border: 5px solid #6528F7;
     padding: 50px;
     margin: 50px;
@@ -28,14 +28,14 @@ h2{
     padding: 10px 0px;
     font-weight: 600;
 }
-#password{
+.password{
     width: 100%;
     outline-color: darkgray;
     margin-bottom: 30px;
     padding: 10px 0px;
     font-weight: 600;
 }
-#btn{
+.login-btn{
     padding: 15px 40px 15px 40px;
     background-color: #6528F7;
     color: white;
@@ -48,4 +48,31 @@ h2{
     text-transform: uppercase;
     font-weight: 800;
     color: #6528F7;
+}
+#transaction-area{
+    display: none;
+}
+
+.deposit{
+    background: #6528F7;
+}
+.balance{
+    background: #F86F03;
+}
+.withdraw{
+    background-color: #ff0062;
+}
+.deposit, .balance, .withdraw{
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0px 20px;
+}
+.font-sw{
+    font-size: 26px;
+    font-weight: 500;
+}
+.font-sw1{
+    font-size: 50px;
+    font-weight: 600;
 }
